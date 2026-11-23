@@ -171,6 +171,7 @@ header {
 .financeiro-cards{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 18px;
 }
 
 .financeiro-card1, .financeiro-card2{
@@ -182,4 +183,15 @@ header {
 
 .financeiro-card1 p, .financeiro-card2 p{
     color: #5E5470;
+}
+
+.grafico{
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+}
+
+.grafico-seg{
+    background-color: #6D28B8;
+    height: 300px;
 }
