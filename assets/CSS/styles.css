@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+
+header {
+    background-color: #fff;
+    color: #2A0F47;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.div-mobile-logo-titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.hero {
+    padding: 16px;
+    background-image: linear-gradient(rgba(42, 15, 71, 0.70)), url("/assets/imagens/Foto-Hero.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding-top: 48px;
+    padding-bottom: 48px;
+
+}
+
+.hero-paragrafo {
+    background-color: #F7B93E;
+    display: inline-block;
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    padding-right: 12px;
+    padding-left: 12px;
+    border-radius: 20px;
+    font-size: 0.7rem;
+}
+
+.hero h1 {
+    font-size: 34px;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.hero h3 {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 200;
+    margin-bottom: 16px;
+}
+
+.hero-button {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.hero-button button {
+    height: 46px;
+    border-radius: 12px;
+    border: none;
+}
+
+.hero-button-codigo {
+    background-color: #F7B93E;
+    color: #2A0F47;
+    font-family: "Poppins";
+    font-weight: 600;
+}
+
+.hero-button-contato {
+    background: #2A0F47;
+    color: #fff;
+    font-family: "Poppins";
+    font-weight: 600;
+    border: #ffffff 4px solid;
+
+}
+
+.fluxo{
+ 
+    padding: 16px;
+    padding-top: 56px;
+    background-color:#F4ECFC;
+    padding-bottom: 56px;
+}
+
+.fluxo h3{
+    text-align: center;
+    color: #6D28B8;
+    margin-bottom: 12px;
+    font-size: 1.3rem;
+}
+
+.fluxo h2{
+    text-align: center;
+    color: #2A0F47;
+    margin-bottom: 8px;
+}
+
+.fluxo p{
+    text-align: center;
+    color:#5E5470 ;
+    margin-bottom: 18px;
+}
+
+.article-passos-fluxo{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.article-div1, .article-div2{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.caixa-passo1, .caixa-passo2, .caixa-passo3, .caixa-passo4{
+    background-color: #fff;
+    padding: 24px;
+    border-radius: 16px;
+   
+}
+
+.caixa-passo1 h5{
+    font-size: 0.9rem;
+    margin-bottom: 12px;
+}
+
+.caixa-passo1 p {
+    text-align: left;
+}
+
+.gestao-financeira{
+    padding: 16px;
+}
+
+.resumo-financeiro{
+    border:#2A0F47 solid 0.5px;
+    border-radius: 16px;
+    padding: 12px;
+}
+
+.financeiro-header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 18px;
+}
+
+.financeiro-header h3{
+    color: #6D28B8;
+}
+
+.financeiro-cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.financeiro-card1, .financeiro-card2{
+    background-color: #F4ECFC;
+    border-radius: 12px;
+    padding: 18px;
+    width: 150px;
+}
+
+.financeiro-card1 p, .financeiro-card2 p{
+    color: #5E5470;
+}
