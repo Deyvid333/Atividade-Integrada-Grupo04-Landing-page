@@ -93,7 +93,7 @@ header {
 
 }
 
-.fluxo{
+.fluxo, .funcionalidades{
  
     padding: 16px;
     padding-top: 56px;
@@ -101,32 +101,32 @@ header {
     padding-bottom: 56px;
 }
 
-.fluxo h3{
+.fluxo h3, .funcionalidades h3{
     text-align: center;
     color: #6D28B8;
     margin-bottom: 12px;
     font-size: 1.3rem;
 }
 
-.fluxo h2{
+.fluxo h2, .funcionalidades h2{
     text-align: center;
     color: #2A0F47;
     margin-bottom: 8px;
 }
 
-.fluxo p{
+.fluxo p, .funcionalidades p{
     text-align: center;
     color:#5E5470 ;
     margin-bottom: 18px;
 }
 
-.article-passos-fluxo{
+.article-passos-fluxo, .article-funcionalidades{
     display: flex;
     flex-direction: column;
     gap: 32px;
 }
 
-.article-div1, .article-div2{
+.article-div1, .article-div2, .article-div1-funcionalidades, .article-div2-funcionalidades{
     display: flex;
     flex-direction: column;
     gap: 32px;
@@ -136,17 +136,25 @@ header {
     background-color: #fff;
     padding: 24px;
     border-radius: 16px;
+    border: 1px solid #F4ECFC;
    
 }
 
-.caixa-passo1 h5{
-    font-size: 0.9rem;
+.caixa-passo1 h5, .caixa-passo2 h5, .caixa-passo3 h5, .caixa-passo4 h5{
+    font-size: 1.1rem;
     margin-bottom: 12px;
 }
 
 .caixa-passo1 p {
     text-align: left;
 }
+
+.funcionalidades{
+    background-color: #fff;
+}
+
+
+/* Gestao financeira */
 
 .gestao-financeira{
     padding: 16px;
@@ -188,10 +196,293 @@ header {
 .grafico{
     display: flex;
     justify-content: space-between;
-    height: 400px;
+    align-items:end;
+    height: 220px;
+    gap: 8px;
+}
+
+.grafico p{
+    font-size: 0.6rem;
+    color: #5E5470;
+    text-align: center;
+}
+
+.grafico-seg, .grafico-ter, .grafico-qua, .grafico-qui, .grafico-sex, .grafico-sab, .grafico-sab, .grafico-dom{
+    border-radius: 6px;
+    background-color: #6D28B8;
+    width: 30px;
+
 }
 
 .grafico-seg{
+    height: 80px;
+}
+
+.grafico-ter{
+    height: 120px;
+}
+
+.grafico-qua{
+    height: 110px;
+}
+
+.grafico-qui{
+    height: 140px;
+}
+
+.grafico-qui{
+    height: 90px;
+}
+
+.grafico-sex{
+    height: 150px;
+}
+
+.grafico-sab{
+    height: 180px;
+    background-color: #F7B93E;
+}
+
+.grafico-dom{
+    height: 160px;
+}
+
+
+
+
+/* texto da gestao financeira e texto do estoque */
+
+.gestao-financeira-texto, .gestao-estoque-texto{
+    margin-top: 46px;
+    margin-bottom: 46px;
+}
+
+.gestao-financeira-texto-2paragrafo, .gestao-estoque-texto-2paragrafo{
+    font-size: 0.8rem;
+    color: #5E5470;
+    margin-bottom: 14px;
+}
+
+
+.gestao-financeira-texto-1paragrafo, .gestao-estoque-texto-1paragrafo{
+    color: #6D28B8;
+    background-color: #F4ECFC;
+    display: inline-block;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    padding-right: 12px;
+    padding-left: 12px;
+    border-radius: 20px;
+    font-size: 0.8;
+    margin-bottom: 12px;
+}
+
+.gestao-financeira-texto h2, .gestao-estoque-texto h2{
+    color: #2A0F47;
+    margin-bottom: 12px;
+    font-size: 1.7rem;
+}
+
+.gestao-financeira-texto ul, .gestao-estoque-texto ul{
+    list-style-type: none ;
+    list-style-image: url(/assets/imagens/Marcador.png);
+    margin-left: 36px;
+ 
+}
+
+.gestao-financeira-texto ul li, .gestao-estoque-texto ul li{
+    margin-bottom: 16px;
+}
+
+/* parte do estoque */
+
+.gestao-estoque{
+    padding: 16px;
+    background-color: #F4ECFC;
+}
+
+.gestao-estoque-tabela{
+    padding: 16px;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-top: 36px;
+    display: flex;
+    flex-direction: column;
+}
+
+.linha1, .linha2, .linha3, .linha4, .linha5 {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+
+}
+
+.linha1, .linha2, .linha3, .linha4{
+    border-bottom: #5E5470 solid 1px;
+}
+
+
+.descricao-linha2, .descricao-linha3, .descricao-linha4, .descricao-linha5{
+    display: flex;
+    gap: 8px;
+    font-size: 0.8rem;
+}
+
+.gestao-estoque-tabela h4{
+    font-size: 0.8em;
+    font-weight: 500;
+}
+
+.linha1-itens{
+    color: #6D28B8;
+    background-color:#F4ECFC;
+    padding-top: 4px;
+    padding-right: 12px;
+    padding-left: 12px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+}
+
+.estado-estoque{
+    padding-top: 4px;
+    padding-right: 12px;
+    padding-left: 12px;
+    border-radius: 20px;
+
+}
+
+.estado-estoque-alto{
+    background-color:#1F8F57;
+    color:#E1F5EA ;
+}
+
+.estado-estoque-baixo{
+    background-color: #FFF1CF;
+    color: #9A6A00 ;
+}
+
+.estado-estoque-critico{
+    background-color: #FCE4E5;
+    color: #C93A40;
+}
+
+/* Contato */
+
+.contato{
     background-color: #6D28B8;
-    height: 300px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 48px;
+    padding-top: 48px;
+}
+
+.p1-contato{
+    color: #fff;
+    background-color: #8B4FD0;
+    text-align: center;
+    display:inline-block;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    padding-right: 12px;
+    padding-left: 12px;
+    border-radius: 20px;
+}
+
+.contato h2{
+    color: #fff;
+}
+
+.p2-contato{
+    color: #F4ECFC;
+    text-align: center;
+}
+
+.form-contato{
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 16px;
+    padding-top: 36px;
+    margin-top: 24px;
+    
+}
+
+.form-contato input{
+    background-color: #F4ECFC;
+    border: solid #E3DAF0 1px;
+    height: 50px;
+    border-radius: 12px;
+    padding-left: 16px;
+}
+
+.form-contato label{
+    color: #2A0F47;
+    font-weight: 500;
+    margin-top: 12px;
+   
+}
+
+.form-contato input:focus, .mensagem{
+    border:solid #6D28B8 2px;
+    outline: none;
+}
+
+.mensagem{
+    height: 100px;
+    background-color: #F4ECFC;
+    border: solid #E3DAF0 1px;
+    border-radius: 12px;
+    padding: 16px;
+}
+
+.button-form{
+    height: 50px;
+    background-color: #6D28B8;
+    color: #F4ECFC;
+    border: solid #E3DAF0 1px;
+    margin-top: 24px;
+    border-radius: 12px;
+}
+
+footer{
+    background-color: #2A0F47;
+    padding: 16px;
+    padding-top: 36px;
+}
+
+.header-footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+footer h2{
+    display: inline-block;
+    color: #ffffff;
+    text-align: center;
+}
+
+footer ul{
+    list-style-type: none;
+    border-bottom: solid 1px #8B4FD0;
+    margin-bottom: 24px;
+}
+
+footer li{
+    color: #E3DAF0;
+    margin-bottom: 14px;
+}
+
+footer p{
+    margin-top: 24px;
+    color: #5E5470;
 }
