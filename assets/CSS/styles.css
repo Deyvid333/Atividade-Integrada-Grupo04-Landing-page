@@ -6,6 +6,7 @@
 
 body {
     font-family: "Poppins", sans-serif;
+    max-width: 1440px;
 }
 
 
@@ -93,54 +94,68 @@ header {
 
 }
 
-.fluxo, .funcionalidades{
- 
+.fluxo,
+.funcionalidades {
+
     padding: 16px;
     padding-top: 56px;
-    background-color:#F4ECFC;
+    background-color: #F4ECFC;
     padding-bottom: 56px;
 }
 
-.fluxo h3, .funcionalidades h3{
+.fluxo h3,
+.funcionalidades h3 {
     text-align: center;
     color: #6D28B8;
     margin-bottom: 12px;
     font-size: 1.3rem;
 }
 
-.fluxo h2, .funcionalidades h2{
+.fluxo h2,
+.funcionalidades h2 {
     text-align: center;
     color: #2A0F47;
     margin-bottom: 8px;
 }
 
-.fluxo p, .funcionalidades p{
+.fluxo p,
+.funcionalidades p {
     text-align: center;
-    color:#5E5470 ;
+    color: #5E5470;
     margin-bottom: 18px;
 }
 
-.article-passos-fluxo, .article-funcionalidades{
+.article-passos-fluxo,
+.article-funcionalidades {
     display: flex;
     flex-direction: column;
     gap: 32px;
 }
 
-.article-div1, .article-div2, .article-div1-funcionalidades, .article-div2-funcionalidades{
+.article-div1,
+.article-div2,
+.article-div1-funcionalidades,
+.article-div2-funcionalidades {
     display: flex;
     flex-direction: column;
     gap: 32px;
 }
 
-.caixa-passo1, .caixa-passo2, .caixa-passo3, .caixa-passo4{
+.caixa-passo1,
+.caixa-passo2,
+.caixa-passo3,
+.caixa-passo4 {
     background-color: #fff;
     padding: 24px;
     border-radius: 16px;
     border: 1px solid #F4ECFC;
-   
+
 }
 
-.caixa-passo1 h5, .caixa-passo2 h5, .caixa-passo3 h5, .caixa-passo4 h5{
+.caixa-passo1 h5,
+.caixa-passo2 h5,
+.caixa-passo3 h5,
+.caixa-passo4 h5 {
     font-size: 1.1rem;
     margin-bottom: 12px;
 }
@@ -149,101 +164,116 @@ header {
     text-align: left;
 }
 
-.funcionalidades{
+.funcionalidades {
     background-color: #fff;
 }
 
 
 /* Gestao financeira */
 
-.gestao-financeira{
+.gestao-financeira {
     padding: 16px;
 }
 
-.resumo-financeiro{
-    border:#2A0F47 solid 0.5px;
+.resumo-financeiro {
+    border: #2A0F47 solid 0.5px;
     border-radius: 16px;
     padding: 12px;
 }
 
-.financeiro-header{
+.financeiro-header {
     display: flex;
     justify-content: space-between;
     margin-bottom: 18px;
 }
 
-.financeiro-header h3{
+.financeiro-header h3 {
     color: #6D28B8;
 }
 
-.financeiro-cards{
+.financeiro-cards {
     display: flex;
     justify-content: space-between;
     margin-bottom: 18px;
 }
 
-.financeiro-card1, .financeiro-card2{
+.financeiro-card1,
+.financeiro-card2 {
     background-color: #F4ECFC;
     border-radius: 12px;
     padding: 18px;
-    width: 150px;
+    width: 100px;
+
 }
 
-.financeiro-card1 p, .financeiro-card2 p{
+.financeiro-card1 p,
+.financeiro-card2 p {
     color: #5E5470;
+    font-size: 0.6rem;
 }
 
-.grafico{
+.grafico {
     display: flex;
     justify-content: space-between;
-    align-items:end;
+    align-items: end;
     height: 220px;
     gap: 8px;
 }
 
-.grafico p{
+.grafico > div {
+    flex:1;
+}
+
+.grafico p {
     font-size: 0.6rem;
     color: #5E5470;
     text-align: center;
 }
 
-.grafico-seg, .grafico-ter, .grafico-qua, .grafico-qui, .grafico-sex, .grafico-sab, .grafico-sab, .grafico-dom{
+.grafico-seg,
+.grafico-ter,
+.grafico-qua,
+.grafico-qui,
+.grafico-sex,
+.grafico-sab,
+.grafico-sab,
+.grafico-dom {
     border-radius: 6px;
     background-color: #6D28B8;
-    width: 30px;
+    width: 100%;
 
 }
 
-.grafico-seg{
+.grafico-seg {
     height: 80px;
 }
 
-.grafico-ter{
+.grafico-ter {
     height: 120px;
 }
 
-.grafico-qua{
+.grafico-qua {
     height: 110px;
 }
 
-.grafico-qui{
+.grafico-qui {
     height: 140px;
 }
 
-.grafico-qui{
+.grafico-qui {
     height: 90px;
 }
 
-.grafico-sex{
+.grafico-sex {
     height: 150px;
 }
 
-.grafico-sab{
+.grafico-sab {
     height: 180px;
     background-color: #F7B93E;
 }
 
-.grafico-dom{
+.grafico-dom {
     height: 160px;
 }
 
@@ -252,19 +282,22 @@ header {
 
 /* texto da gestao financeira e texto do estoque */
 
-.gestao-financeira-texto, .gestao-estoque-texto{
+.gestao-financeira-texto,
+.gestao-estoque-texto {
     margin-top: 46px;
     margin-bottom: 46px;
 }
 
-.gestao-financeira-texto-2paragrafo, .gestao-estoque-texto-2paragrafo{
+.gestao-financeira-texto-2paragrafo,
+.gestao-estoque-texto-2paragrafo {
     font-size: 0.8rem;
     color: #5E5470;
     margin-bottom: 14px;
 }
 
 
-.gestao-financeira-texto-1paragrafo, .gestao-estoque-texto-1paragrafo{
+.gestao-financeira-texto-1paragrafo,
+.gestao-estoque-texto-1paragrafo {
     color: #6D28B8;
     background-color: #F4ECFC;
     display: inline-block;
@@ -277,31 +310,34 @@ header {
     margin-bottom: 12px;
 }
 
-.gestao-financeira-texto h2, .gestao-estoque-texto h2{
+.gestao-financeira-texto h2,
+.gestao-estoque-texto h2 {
     color: #2A0F47;
     margin-bottom: 12px;
     font-size: 1.7rem;
 }
 
-.gestao-financeira-texto ul, .gestao-estoque-texto ul{
-    list-style-type: none ;
+.gestao-financeira-texto ul,
+.gestao-estoque-texto ul {
+    list-style-type: none;
     list-style-image: url(/assets/imagens/Marcador.png);
     margin-left: 36px;
- 
+
 }
 
-.gestao-financeira-texto ul li, .gestao-estoque-texto ul li{
+.gestao-financeira-texto ul li,
+.gestao-estoque-texto ul li {
     margin-bottom: 16px;
 }
 
 /* parte do estoque */
 
-.gestao-estoque{
+.gestao-estoque {
     padding: 16px;
     background-color: #F4ECFC;
 }
 
-.gestao-estoque-tabela{
+.gestao-estoque-tabela {
     padding: 16px;
     background-color: #fff;
     border-radius: 20px;
@@ -310,7 +346,11 @@ header {
     flex-direction: column;
 }
 
-.linha1, .linha2, .linha3, .linha4, .linha5 {
+.linha1,
+.linha2,
+.linha3,
+.linha4,
+.linha5 {
     display: flex;
     justify-content: space-between;
     height: 50px;
@@ -318,25 +358,31 @@ header {
 
 }
 
-.linha1, .linha2, .linha3, .linha4{
+.linha1,
+.linha2,
+.linha3,
+.linha4 {
     border-bottom: #5E5470 solid 1px;
 }
 
 
-.descricao-linha2, .descricao-linha3, .descricao-linha4, .descricao-linha5{
+.descricao-linha2,
+.descricao-linha3,
+.descricao-linha4,
+.descricao-linha5 {
     display: flex;
     gap: 8px;
     font-size: 0.8rem;
 }
 
-.gestao-estoque-tabela h4{
+.gestao-estoque-tabela h4 {
     font-size: 0.8em;
     font-weight: 500;
 }
 
-.linha1-itens{
+.linha1-itens {
     color: #6D28B8;
-    background-color:#F4ECFC;
+    background-color: #F4ECFC;
     padding-top: 4px;
     padding-right: 12px;
     padding-left: 12px;
@@ -344,7 +390,7 @@ header {
     font-size: 0.8rem;
 }
 
-.estado-estoque{
+.estado-estoque {
     padding-top: 4px;
     padding-right: 12px;
     padding-left: 12px;
@@ -352,24 +398,24 @@ header {
 
 }
 
-.estado-estoque-alto{
-    background-color:#1F8F57;
-    color:#E1F5EA ;
+.estado-estoque-alto {
+    background-color: #1F8F57;
+    color: #E1F5EA;
 }
 
-.estado-estoque-baixo{
+.estado-estoque-baixo {
     background-color: #FFF1CF;
-    color: #9A6A00 ;
+    color: #9A6A00;
 }
 
-.estado-estoque-critico{
+.estado-estoque-critico {
     background-color: #FCE4E5;
     color: #C93A40;
 }
 
 /* Contato */
 
-.contato{
+.contato {
     background-color: #6D28B8;
     padding: 16px;
     display: flex;
@@ -380,28 +426,29 @@ header {
     padding-top: 48px;
 }
 
-.p1-contato{
+.p1-contato {
     color: #fff;
     background-color: #8B4FD0;
     text-align: center;
-    display:inline-block;
+    display: inline-block;
     padding-bottom: 4px;
     padding-top: 4px;
     padding-right: 12px;
     padding-left: 12px;
     border-radius: 20px;
+    width: 120px;
 }
 
-.contato h2{
+.contato h2 {
     color: #fff;
 }
 
-.p2-contato{
+.p2-contato {
     color: #F4ECFC;
     text-align: center;
 }
 
-.form-contato{
+.form-contato {
     display: flex;
     flex-direction: column;
     padding: 24px;
@@ -410,10 +457,24 @@ header {
     border-radius: 16px;
     padding-top: 36px;
     margin-top: 24px;
-    
+
 }
 
-.form-contato input{
+.email-telefone-contato {
+
+    gap: 24px;
+}
+
+.div-email,
+.div-telefone {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+
+.form-contato input {
     background-color: #F4ECFC;
     border: solid #E3DAF0 1px;
     height: 50px;
@@ -421,19 +482,20 @@ header {
     padding-left: 16px;
 }
 
-.form-contato label{
+.form-contato label {
     color: #2A0F47;
     font-weight: 500;
     margin-top: 12px;
-   
+
 }
 
-.form-contato input:focus, .mensagem{
-    border:solid #6D28B8 2px;
+.form-contato input:focus,
+.mensagem {
+    border: solid #6D28B8 2px;
     outline: none;
 }
 
-.mensagem{
+.mensagem {
     height: 100px;
     background-color: #F4ECFC;
     border: solid #E3DAF0 1px;
@@ -441,7 +503,7 @@ header {
     padding: 16px;
 }
 
-.button-form{
+.button-form {
     height: 50px;
     background-color: #6D28B8;
     color: #F4ECFC;
@@ -450,13 +512,13 @@ header {
     border-radius: 12px;
 }
 
-footer{
+footer {
     background-color: #2A0F47;
     padding: 16px;
     padding-top: 36px;
 }
 
-.header-footer{
+.header-footer {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -465,79 +527,96 @@ footer{
     margin-bottom: 16px;
 }
 
-footer h2{
+footer h2 {
     display: inline-block;
     color: #ffffff;
     text-align: center;
 }
 
-footer ul{
+footer ul {
     list-style-type: none;
     border-bottom: solid 1px #8B4FD0;
     margin-bottom: 24px;
 }
 
-footer li{
+footer li {
     color: #E3DAF0;
     margin-bottom: 14px;
 }
 
-footer p{
+footer p {
     margin-top: 24px;
     color: #5E5470;
 }
 
 /* Versão tablet */
 
-nav{
+nav {
     display: none;
 }
 
-   .br-nao-aparecer{
-        display: none;
-    }
+.br-nao-aparecer {
+    display: none;
+}
+
+.br-desktop {
+    display: none;
+}
+
+
+.texto-contato {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lista-contato{
+    display: none;
+}
 
 @media(min-width: 767px) {
 
     /* header e navbar */
-  .menu-hamburguer{
+    .menu-hamburguer {
         display: none;
     }
-    nav{
+
+    nav {
         display: block;
 
     }
 
-    ul{
+    ul {
         display: flex;
         list-style-type: none;
         gap: 18px;
-      
+
     }
 
     ul a {
-          text-decoration: none;
-          color: #2A0F47;
+        text-decoration: none;
+        color: #2A0F47;
     }
 
     .hero {
-       padding-top: 150px;
-       padding-bottom: 150px;
+        padding-top: 150px;
+        padding-bottom: 150px;
     }
 
-    .br-nao-aparecer{
+    .br-nao-aparecer {
         display: block;
     }
 
-    .hero-button{
+    .hero-button {
         flex-direction: row;
     }
 
-    .hero-button-codigo{
+    .hero-button-codigo {
         width: 240px;
     }
 
-    .hero-button-contato{
+    .hero-button-contato {
         width: 190px;
     }
 
@@ -547,58 +626,384 @@ nav{
 
     /* fluxo */
 
-    .article-div1, .article-div2{
+    .article-div1,
+    .article-div2 {
         flex-direction: row;
     }
-    .caixa-passo1, .caixa-passo2, .caixa-passo3, .caixa-passo4{
+
+    .caixa-passo1,
+    .caixa-passo2,
+    .caixa-passo3,
+    .caixa-passo4 {
         width: 400px;
     }
-/* gestão financeira */
-    .financeiro-cards{
+
+    /* gestão financeira */
+    .financeiro-cards {
         gap: 16px;
     }
-    .financeiro-card1, .financeiro-card2{
+
+    .financeiro-card1,
+    .financeiro-card2 {
         width: 300px;
     }
-
-  .grafico-dom, .grafico-seg, .grafico-ter, .grafico-qua, .grafico-qui, .grafico-sex, .grafico-sab{
-        width: 80px;
+    .grafico > div{
+        flex: 1;
     }
 
-    .gestao-financeira-texto ul, .gestao-estoque-texto ul{
+    .grafico-dom,
+    .grafico-seg,
+    .grafico-ter,
+    .grafico-qua,
+    .grafico-qui,
+    .grafico-sex,
+    .grafico-sab {
+        width: 100%;
+    }
+
+    .gestao-financeira-texto ul,
+    .gestao-estoque-texto ul {
         flex-direction: column;
     }
 
-    .gestao-estoque-tabela h4, .gestao-estoque-tabela p{
+    .gestao-estoque-tabela h4,
+    .gestao-estoque-tabela p {
         font-size: 1.0rem;
-    } 
+    }
 
     /* .article-div1-funcionalidades, .article-div2-funcionalidades{
         flex-direction: row;
     } */
 
-    .article-funcionalidades{
+    .article-funcionalidades {
         display: flex;
         max-width: 736px;
         flex-direction: row;
         gap: 32px;
     }
 
-    .caixa-passo1, .caixa-passo2, .caixa-passo3, .caixa-passo4{
+    .caixa-passo1,
+    .caixa-passo2,
+    .caixa-passo3,
+    .caixa-passo4 {
         height: 215px;
     }
 
-    .funcionalidades article-div1-funcionalidades, .funcionalidades article-div2-funcionalidades{
-       flex:1;
-       }
+    .funcionalidades .article-div1-funcionalidades,
+    .funcionalidades .article-div2-funcionalidades {
+        flex: 1;
+    }
 
-       .funcionalidades .caixa-passo1, .funcionalidades .caixa-passo2, .funcionalidades .caixa-passo3, .funcionalidades .caixa-passo4{
+    .funcionalidades .caixa-passo1,
+    .funcionalidades .caixa-passo2,
+    .funcionalidades .caixa-passo3,
+    .funcionalidades .caixa-passo4 {
         width: 100%;
-   
+
+    }
+
+    footer ul {
+        flex-direction: column
+    }
+
+    footer{
+        padding: 24px;
+    }
+
 }
 
-    footer ul{
-        flex-direction:column
+@media(min-width:1440px) {
+
+    /* Header e Hero */
+
+    .hero {
+        padding: 156px;
     }
+
+    .hero h1 {
+        font-size: 4.2rem;
+    }
+
+    .hero-paragrafo p {
+        font-size: 1.2rem;
+    }
+
+    .hero h3 {
+        font-size: 1.6rem;
+        min-width: 860px;
+    }
+
+    .hero-button-codigo {
+        width: 320px;
+    }
+
+    .hero-button-contato {
+        width: 260px;
+    }
+
+    .hero-button button {
+        height: 50px;
+    }
+
+    /* fluxo */
+
+    .fluxo {
+        padding: 156px;
+    }
+
+
+    .article-passos-fluxo {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    /* Gestao financeira */
+
+    .gestao-financeira {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        padding: 156px;
+
+    }
+
+    .resumo-financeiro {
+        width: 40%;
+    }
+
+    .gestao-financeira-texto h2 {
+        font-size: 3.2rem;
+    }
+
+    .resumo-financeiro {
+        height: 530px;
+    }
+
+    .br-desktop {
+        display: block;
+    }
+
+    .gestao-financeira-texto-2paragrafo {
+        font-size: 1.4rem;
+    }
+
+    li {
+        font-size: 1.4rem;
+    }
+
+    .grafico-seg {
+        height: 180px;
+    }
+
+    .grafico-ter {
+        height: 220px;
+    }
+
+    .grafico-qua {
+        height: 110px;
+    }
+
+    .grafico-qui {
+        height: 140px;
+    }
+
+    .grafico-qui {
+        height: 90px;
+    }
+
+    .grafico-sex {
+        height: 150px;
+    }
+
+    .grafico-sab {
+        height: 280px;
+        background-color: #F7B93E;
+    }
+
+    .grafico-dom {
+        height: 260px;
+    }
+
+    .grafico {
+        height: 350px;
+    }
+
+    .grafico p {
+        font-size: 1.2rem;
+    }
+
+    .financeiro-cards h4,
+    .financeiro-cards p {
+        font-size: 1.2rem;
+    }
+
+    .gestao-estoque {
+        display: flex;
+        flex-direction: row;
+        padding: 156px;
+        justify-content: center;
+        gap: 156px;
+    }
+
+    .gestao-estoque-tabela {
+        width: 60%;
+        height: 440px;
+    }
+
+    .gestao-estoque-tabela .linha1,
+    .gestao-estoque-tabela .linha2,
+    .gestao-estoque-tabela .linha3,
+    .gestao-estoque-tabela .linha4,
+    .gestao-estoque-tabela .linha5 {
+        height: 80px;
+    }
+
+    .linha1 h4 {
+        font-weight: 600;
+        font-size: 1.4rem;
+    }
+
+
+    .gestao-estoque-texto h2 {
+        font-size: 3.4rem;
+    }
+
+    .gestao-estoque-texto-2paragrafo {
+        font-size: 1.4em;
+    }
+
+
+
+    /* Funcionalidades */
+
+    .funcionalidades {
+        padding: 156px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .article-funcionalidades {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .article-div1-funcionalidades,
+    .article-div2-funcionalidades {
+        flex-direction: row;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .caixa-funcionalidade {
+        width: 500px;
+    }
+
+    .texto-funcionalidades h2 {
+        font-size: 3.4rem;
+    }
+
+    .texto-funcionalidades p {
+        font-size: 1.4em;
+    }
+
+
+    /* contato */
+
+    .contato {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 156px;
+        gap: 24px;
+     
+    }
+
+    .form-contato{
+        width: 75%;
+    }
+
+    .email-telefone-contato {
+        display: flex;
+        gap: 24px;
+    }
+
+    .div-email,
+    .div-telefone {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+
+    }
+
+    .texto-contato{
+        align-items: start;
+        gap: 18px;
+    }
+
+    .p2-contato{
+        font-size: 1.6rem;
+        text-align: left;
+    }
+
+
+    .lista-contato{
+        display: block;
+    }
+
+    .texto-contato h2{
+        font-size: 3.8rem;
+    }
+
+    .lista-contato ul{
+        color: #ffffff;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .lista-contato li{
+        display: flex;
+        gap: 16px;
+    }
+
+    .lista-contato{
+        display: block;
+    }
+
+    /* footer */
+
+    .body-footer{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    .body-footer ul{
+        display: flex;
+        flex-direction: row;
+    }
+
+    footer ul{
+        border: none;
+    }
+
+    footer > p{
+        border-top: solid 1px #5E5470;
+    }
+
+    footer{
+        padding-top: 48px;
+        padding-bottom: 48px;
+        padding-left: 156px;
+        padding-right: 156px;
+    }
+
+
+
 
 }

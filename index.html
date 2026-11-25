@@ -142,7 +142,7 @@
 
             <article class="gestao-financeira-texto">
                 <p class="gestao-financeira-texto-1paragrafo">GESTÃO FINANCEIRA</p>
-                <h2>Controle financeiro simples</h2>
+                <h2>Controle financeiro <br class="br-desktop">simples</h2>
                 <p class="gestao-financeira-texto-2paragrafo">Acompanhe quanto entra e quanto sai da sua loja, sem
                     planilhas.</p>
                 <ul>
@@ -208,26 +208,32 @@
         </section>
 
         <section class="funcionalidades">
-            <h3>FUNCIONALIDADES</h3>
-            <h2>Tudo o que a Dev-Squad faz por você</h2>
-            <p>Recursos pensados para o dia a dia de uma loja de açaí.</p>
+
+            <div class="texto-funcionalidades">
+
+                <h3>FUNCIONALIDADES</h3>
+                <h2>Tudo o que a Dev-Squad faz por você</h2>
+                <p>Recursos pensados para o dia a dia de uma loja de açaí.</p>
+
+            </div>
+      
             <article class="article-funcionalidades">
 
                 <div class="article-div1-funcionalidades">
 
-                    <div class="caixa-passo1">
+                    <div class="caixa-passo1 caixa-funcionalidade">
                         <img src="assets/imagens/Tamanhos.png" alt="">
                         <h5>Tamanhos</h5>
                         <p>Cadastre tamanhos e preços de cada tigela.</p>
                     </div>
 
-                    <div class="caixa-passo2">
+                    <div class="caixa-passo1 caixa-funcionalidade">
                         <img src="assets/imagens/Edicao-produtos.png" alt="">
                         <h5>Edição de produtos</h5>
                         <p>Altere nome, preço e disponibilidade rapidamente.</p>
                     </div>
 
-                    <div class="caixa-passo1">
+                    <div class="caixa-passo1 caixa-funcionalidade">
                         <img src="assets/imagens/Promocoes.png" alt="">
                         <h5>Promoções</h5>
                         <p>Crie descontos por produto ou por período.</p>
@@ -236,19 +242,19 @@
                 </div>
                 <div class="article-div2-funcionalidades">
 
-                    <div class="caixa-passo3">
+                    <div class="caixa-passo3 caixa-funcionalidade">
                         <img src="assets/imagens/Adicionais.png" alt="">
                         <h5>Adicionais</h5>
                         <p>Complementos e coberturas para montar a tigela..</p>
                     </div>
 
-                    <div class="caixa-passo4">
+                    <div class="caixa-passo1 caixa-funcionalidade">
                         <img src="assets/imagens/Pedidos.png" alt="">
                         <h5>Pedidos</h5>
                         <p>Registro e acompanhamento dos pedidos.</p>
                     </div>
 
-                    <div class="caixa-passo1">
+                    <div class="caixa-passo1 caixa-funcionalidade">
                         <img src="assets/imagens/Relatorios.png" alt="">
                         <h5>Relatórios</h5>
                         <p>Resumo de vendas e movimentação do período.</p>
@@ -259,16 +265,38 @@
         </section>
 
         <section class="contato">
-            <p class="p1-contato">CONTATO</p>
-            <h2>Fale com a gente</h2>
-            <p class="p2-contato">Tem dúvidas ou quer conhecer o sistema? Envie uma mensagem.</p>
+            <div class="texto-contato">
+                <p class="p1-contato">CONTATO</p>
+                <h2>Fale com a gente</h2>
+                <p class="p2-contato">Tem dúvidas ou quer conhecer o sistema? Envie uma mensagem.</p>
+
+                <div class="lista-contato">
+                    <ul>
+                        <li> <img src="/assets/imagens/mensagem.png" alt=""><p>Dev-Squad@gmail.com</p></li>
+                        <li><img src="/assets/imagens/telefone.png" alt=""><p>(11) 99999 9999</p></li>
+                    </ul>
+                </div>
+           
+            </div>
+   
             <article class="form-contato">
                 <label for="">Nome</label>
                 <input type="text" placeholder="Seu nome">
-                <label for="">E-mail</label>
-                <input type="email" placeholder="Você@gmail.com">
-                <label for="">Telefone</label>
-                <input type="tel" placeholder="(11) 99999 9999">
+
+
+                <div class="email-telefone-contato">
+                    <div class="div-email">
+                        <label for="">E-mail</label>
+                        <input type="email" placeholder="Você@gmail.com">
+                    </div>
+                   
+                    <div class="div-telefone">
+                        <label for="">Telefone</label>
+                        <input type="tel" placeholder="(11) 99999 9999">
+                    </div>
+                </div>
+             
+
                 <label for="">Mensagem</label>
                 <textarea class="mensagem" placeholder="Escreva sua Mensagem"></textarea>
                 <button class="button-form">Enviar Mensagem</button>
@@ -277,17 +305,20 @@
 
     </main>
     <footer>
-        <div class="header-footer">
-            <img src="/assets/imagens/Logo (placeholder).png" alt="">
-            <h2>Dev-Squad</h2>
-          
+        <div class="body-footer">
+            <div class="header-footer">
+                <img src="/assets/imagens/Logo (placeholder).png" alt="">
+                <h2>Dev-Squad</h2>
+              
+            </div>
+            <ul>
+                <li>Financeiro</li>
+                <li>Estoque</li>
+                <li>Funcionalidades</li>
+                <li>Contato</li>
+            </ul>
         </div>
-        <ul>
-            <li>Financeiro</li>
-            <li>Estoque</li>
-            <li>Funcionalidades</li>
-            <li>Contato</li>
-        </ul>
+   
 
         <p>@2026 Dev-Squad Projeto Integrado SENAI</p>
     </footer>
